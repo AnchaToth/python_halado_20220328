@@ -25,7 +25,7 @@ def count_accented_new(word):
     counter = 0
 
     for char in word:
-        if ord(chr) > 122:
+        if ord(char) > 122:
             counter += 1
     return counter
 
