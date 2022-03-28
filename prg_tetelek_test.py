@@ -16,3 +16,4 @@ def test_count_accented():
 
 def test_count_accented_2():
     assert count_accented_new("akármicsakÉkezetesbetű") == 3
+    assert count_accented_new("elégMÁRazÉkezetekből") == 4

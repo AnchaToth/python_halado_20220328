@@ -10,6 +10,6 @@
 #from prg_tetelek import *
 #print(sum_numbers([2,4,6]))
 
- ## alias-sal importáljuk az egész modult
+ ## alias-sal importáljuk az egész modult.
 import prg_tetelek as algs
 print(algs.sum_numbers([3,6,9]))

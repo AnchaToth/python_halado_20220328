@@ -40,3 +40,4 @@ if __name__ == "__main__":
     print(count_accented("bármicsakszöveglegyen"))
 
     print(count_accented_new("akármiÉkezetes"))
+    
