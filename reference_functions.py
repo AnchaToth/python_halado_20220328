@@ -21,9 +21,9 @@ def remove_last(names):
     # names = names[0:-1]  # a szeletelés mindig egy új listát hoz létre, így az eredetit nem módosítja
     # names.remove(names[-1])
     # names = [name for name in names if name.startswith("Z")]
-    # for name in names:
-    #    if name.startswith("S"):
-    #        names.remove(name)
+    for name in names:
+        if name.startswith("S"):
+            names.remove(name)
 
 employees = ["Zozo", "Zoe", "Zizi", "Steve"]
 remove_last(employees)

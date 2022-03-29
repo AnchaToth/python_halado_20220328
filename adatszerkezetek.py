@@ -11,5 +11,3 @@ names[1] = "John XY"
 fruit = "cherry"
 upper_name = fruit.upper()
 print(fruit.upper())
-
-
