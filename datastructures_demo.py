@@ -57,3 +57,8 @@ print(numbers)
 print("****")
 numbers.sort()  # az adott listát rendezi
 print(numbers)
+
+# adjátok össze az első 5 egész számot
+print(sum(range(1,6)))
+print(min([2,6,8,43,]))
+print(max([17,23,45,79]))
